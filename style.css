@@ -1,0 +1,962 @@
+
+.hello-world {
+  font-family: Martel, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.fav-destinations {
+  font-family: SourceSansPro, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.btn {
+    width: 204px;
+    height: 48px;
+    border-radius: 40px;
+    box-shadow: 2px 4px 10px 0 rgba(20, 28, 66, 0.4);
+    background-color: #fd862f;
+    font-family: SourceSansPro, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: Semibold;
+    margin-top: 49px;
+  }
+
+  .btn:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transition: 0.5s;
+}
+  
+  .header-image{
+    background: url(images/hero.jpg);
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.nav-text {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.tours {
+  width: 42px;
+  height: 30px;
+  font-family: SourceSansPro, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.stories {
+  width: 52px;
+  height: 30px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+  
+
+.flex-container {
+  
+  margin-top: 23.4%;;
+  margin-left: 18.9%;
+  margin-right: 18.9%;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 123px;
+  justify-content: space-between;
+  margin-left: 18.9%;
+  margin-right: 18.9%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-size: cover;
+  
+}
+
+
+
+
+.text {
+  font-family: Martel;
+  font-size: 48px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  
+  letter-spacing: normal;
+  color: #ffffff;
+  
+}
+
+.text-container {
+  left: 20%;
+  top: 50%;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+   
+}
+
+.image-container {
+  position: relative;
+  width: 378px;
+  height: 393px;
+  margin-right: 33px;
+  margin-bottom: 108px;
+  padding-bottom: 20px;
+}
+
+.rtg {
+  width: 120px;
+  height: 30px;
+  opacity: 0.8;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px 0 rgba(20, 28, 66, 0.23);
+  background-color: #141c42;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.sleeping-point{
+  font-family: Martel;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #141c42;
+  margin-top: 122px;
+  text-align: center;
+  
+
+}
+
+.adventure {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #1f2129;
+  margin-top: 24px;
+  
+
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.push-top{
+  margin-bottom: 25px;
+}
+
+.bottom-images {
+  margin-top: 3.1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  
+  
+}
+
+.stars{
+  
+  margin-left: 2.4%;
+  
+  
+}
+
+.mountains {
+  
+  margin-left: 15px;
+  margin-right: 18.9%;
+  
+}
+#Frame
+{
+    width: 64px;
+    height: 64px;
+    background: url(https://cdn.zeplin.io/5eeb7454d7202d45d5ee8f28/assets/0054928d-0723-41cd-822d-11799bad02c4.svg) no-repeat;
+    text-align: center;
+    margin-top: 5.9%;
+    
+    
+    position: absolute;
+}
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    
+}
+#Frame > img
+{
+    vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  height: 9.8%;
+  background-color: #141c42;
+  margin-top: 7.7%;
+}
+
+.world-travel {
+  width: 9.1%;
+  height: 19.4%;
+  object-fit: contain;
+  margin-top: 65px;
+  margin-left: 18.9%;
+}
+
+.contact-us{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+height: 9.8%;
+position: relative;
+bottom: 45px;
+
+}
+
+.align-left {
+  margin-left: 250px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-center{
+
+  padding-top: 15px;
+  
+}
+
+.navigation {
+  margin-right: 150px;
+  margin-bottom: -100px;
+  padding-top:  22px;
+  
+    float: right;
+ 
+  
+}
+.nav-push{
+  margin-right:30px;
+}
+
+.hamburger-push{
+  margin-left: 1532px;
+  margin-top: 38px;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+ a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+.push-w{
+  padding-left:35px;
+}
+
+.carousel-image{
+  width: 582px;
+  height: 337px;
+}
+
+.span-left {
+  position: relative;
+  top: 10px;
+}
+
+.navbar-right {
+  width: 100%;
+    align-content: end;
+    text-align: right;
+    padding-right: 0px;
+}
+
+.Rectangle-2 {
+  
+  background-image: radial-gradient(circle at 0 0, #1d2860, #141c42);
+  height: 100%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  margin-left: 18%;
+  height: 30%;
+  
+}
+
+.wander {
+  width: 56%;
+  height: auto;
+  font-family: SourceSansPro;
+  font-size: 30px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: flex;
+
+}
+
+.JRR {
+  width: 50%;
+  height: 26px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: flex;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 200px;
+}
+
+.vertical-line{
+  position: absolute; /* changed*/
+    left:50%;
+    top:0;
+    bottom:25%;
+    border-left:1px solid #fd862f;
+    
+    height: 100%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.right-quote{
+  
+  
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 61%;
+    
+}
+
+.right-txt{
+  
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #fd862f;
+  margin-bottom: 3.3%;
+}
+
+.e-mail{
+ 
+  font-family: SourceSansPro;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: #fd862f;
+}
+
+.maps-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.text {
+    font-size: 48px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  h1.hello-world {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  h1.hello-world {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  div.fav-destinations {
+    font-size: 22px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.fav-destinations {
+    font-size: 15px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  button.btn {
+width: 204px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  button.btn {
+    width: 150px;
+  }
+}
+
+.navbar-destinations{
+  background-color: #151d43;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ 
+}
+
+.elipse{
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  background-color: #fd862f;
+}
+
+.destinations-link{
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color:lightslategray;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+@font-face {
+  font-family: Martel;
+  src: url(https://fonts.googleapis.com/css2?family=Martel:wght@300&display=swap);
+}
+
+.destinations-txt{
+  font-family: Martel;
+  font-size: 48px;
+  font-weight: 510;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: #141c42;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 601px) {
+  span.destinations-txt{
+    font-size: 48px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  span.destinations-txt{
+    font-size: 30px;
+  }
+}
+
+.destinations-image{
+  max-width: 100%; 
+display:block; 
+height: auto;
+  border-radius: 25px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.tours-btn{
+  width: 275px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: #fd862f;
+  margin-bottom: 100px;
+}
+.tours-btnspan{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;}
+
+
+  @media screen and (min-width: 601px) {
+    button.tours-btn {
+  width: 274px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    button.tours-btn {
+      width: 150px;
+    }
+  }
+
+  .tours-btn:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.elipsis{
+  position: absolute;
+  bottom: 243px;
+  display: inline-flex;
+}
+
+.elipsis-txt{
+  font-family: SourceSansPro;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: -6px
+}
+
+.stories-txt{
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #1f2129;
+}
+
+.elipsis-stories{
+  position: absolute;
+  bottom: 85%;
+  display: inline-flex;
+  left: 15%;
+}
+
+.stories-span-txt{
+  font-family: Martel;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+
+.stories-row-border{
+  border-radius: 20px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  margin-right: 30px;
+  padding-bottom: 15px;
+}
+
+
+.stories-div-txt{
+  font-size: 24.2px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.stories-div-img {
+  width: 326.7px;
+  height: 339.6px;
+  object-fit: contain;
+}
+
+a:hover {
+  text-decoration: underline;
+  }
+
+  .maps-hero{
+    background: url(images/stars2.jpg);
+      width: 100%;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      height: auto;
+      background-position: center;
+      background-size: cover;
+  }
+
+.maps-headtxt{
+  font-family: Martel;
+  font-size: 64px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.maps-txt{
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.maps-img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.maps-imgtxt{
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Martel;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  left: 15%;
+  top: 23%;
+}
+
+@media screen and (min-width: 601px) {
+  span.maps-imgtxt {
+    font-size: 32px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  span.maps-imgtxt {
+    font-size: 16px;
+  }
+}
+.mini-img{
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #fd862f;
+}
+
